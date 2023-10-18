@@ -1,3 +1,4 @@
+import { registerRootComponent } from 'expo';
 import HandleScreen from "./HandleScreen";
 import { SettingProvider } from "./screens/SettingsScreen/Context";
 import { DataProvider } from "./data/dataProvider";
@@ -40,3 +41,6 @@ export default function App() {
     </>
   );
 }
+
+
+registerRootComponent(App);
