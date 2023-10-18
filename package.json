@@ -1,13 +1,12 @@
 {
-  "name": "hrm-app-diligo",
+  "name": "app",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web",
-    "eject": "expo eject"
+    "web": "expo start --web"
   },
   "dependencies": {
     "@expo/dev-tools": "^0.13.146",
@@ -57,7 +56,7 @@
     "tough-cookie": "^4.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.20.0"
   },
   "private": true
 }
