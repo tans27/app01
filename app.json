@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "hrm-app-diligo",
+    "slug": "hrm-app-diligo",
+    "icon": "./assets/images/logoIcon.png",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "description": "",
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/logoIcon.png",
+          "color": "red",
+          "sounds": [
+            "./assets/sounds/success.mp3",
+            "./assets/sounds/success.mp3"
+          ]
+        }
+      ]
+    ],
+    "githubUrl": "https://github.com/LukiNguyen/App-HRM-backup"
+  },
+  "name": "hrm-app-diligo"
+}
